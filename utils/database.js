@@ -1,8 +1,10 @@
 import mongoose from "mongoose"
 
+const { MONGODB_URI: uri } = process.env
+
 const connectDB = async() => {
   try{
-    await mongoose.connect("mongodb+srv://take_toyo_silence:adorax7171@cluster0.f5r9tip.mongodb.net/appDataBase?retryWrites=true&w=majority")
+    await mongoose.connect(uri)
     console.log("Success: Connected to MongoDB")
   }catch(err){
     console.log("Failure: Unconnected to MongoDB")
