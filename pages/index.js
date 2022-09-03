@@ -21,7 +21,7 @@ const ReadAllItems = (props) => {
 }
 
 export const getServerSideProps = async() => {
-  const response = await fetch("http://nextjs-sample-app-phi.vercel.app/api/item/readall")
+  const response = await fetch("https://next-market-app-kappa.vercel.app/api/item/readall")
   const allItems = await response.json()
   return {
     props: allItems

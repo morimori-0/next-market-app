@@ -9,7 +9,7 @@ const CreateItem = () => {
   const handleSubmit = async(e) => {
     e.preventDefault()
     try{
-      const response = await fetch("http://nextjs-sample-app-phi.vercel.app/api/item/create", {
+      const response = await fetch("https://next-market-app-kappa.vercel.app/api/item/create", {
         method: "POST",
         headers: {
           "Accept": "application/json",

@@ -10,11 +10,11 @@ npm run dev
 yarn dev
 ```
 
-Open [http://nextjs-sample-app-phi.vercel.app](http://nextjs-sample-app-phi.vercel.app) with your browser to see the result.
+Open [https://next-market-app-kappa.vercel.app](https://next-market-app-kappa.vercel.app) with your browser to see the result.
 
 You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://nextjs-sample-app-phi.vercel.app/api/hello](http://nextjs-sample-app-phi.vercel.app/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [https://next-market-app-kappa.vercel.app/api/hello](https://next-market-app-kappa.vercel.app/api/hello). This endpoint can be edited in `pages/api/hello.js`.
 
 The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
 
