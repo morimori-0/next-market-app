@@ -6,7 +6,7 @@ const Login = () => {
   const handleSubmit = (e) => {
     e.preventDefault()
     try{
-      fetch("http://localhost:3000/api/user/login",{
+      fetch("http://nextjs-sample-app-phi.vercel.app/api/user/login",{
         method: "POST",
         headers: {
           "Accept": "application/json",

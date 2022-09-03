@@ -8,7 +8,7 @@ const Register = () => {
   const handleSubmit = async(e) => {
     e.preventDefault()
     try{
-      const response = fetch("http://localhost:3000/api/user/register",{
+      const response = fetch("http://nextjs-sample-app-phi.vercel.app/api/user/register",{
         method: "POST",
         headers: {
           "Accept": "application/json",
